@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Example html page</title>
+</head>
+
+<body>
+
+  <h1>An example of some html</h1>
+
+  <h2>Headings and paragraphs (this is an h2 heading)</h2>
+
+  <p>In HTML headings are marked with using heading tags such h1. There are six levels of heading supported. The biggest is h1 which is used for page titles. The smallest is h6. On most pages you probably won't see h4-6 used.</p>
+
+  <p>Paragraphs are separated using p tags. This automatically separates them into blocks, leaving a gap in between.</p>
+
+  <h2>Blank lines and void tags</h2>
+
+  <p>It is also possible to insert extra blank lines manually using the br tag. The br tag is a special type of tag (called a 'void tag'); you don't need a closing br tag, just un opening one.</p>
+
+  <br>
+
+  <h2>Comments</h2>
+
+  <p>You can write comments in your html code, which won't be displayed in the browser.</p>
+
+  <!--- This is a comment. It won't show up in the page, but you will be able to see it if you view the page source (be warned!) -->
+
+
+  <h2>Lists</h2>
+  <p>Html has two basic types of list:</p>
+
+  <ol>
+    <li>Ordered lists (&lt;ol&gt;) - displays a numbered list</li>
+    <li>Unordered lists (&lt;ul&gt;) - displays a list of bullet points</li>
+  </ol>
+
+  <p>Both have the same basic structure.</p>
+
+  <ul>
+    <li>An opening list tag</li>
+    <li>Many list items (&lt;li&gt;)</li>
+    <li>A closing list tags</li>
+  </ul>
+
+  <p>You don't often see lists in their basic form, but lists are heavily used in websites; dropdown menus are often cleverly styled lists.</p>
+
+  <h2>Links</h2>
+  <p>Links look like this: <a href="http://www.facebook.com">link to facebook</a>. You specify where you want the link to point by specifying the 'href' inside the &lt;a&gt; tag.</p>
+
+  <p>The href can also point to local files. For example, <a href="./example.html">this</a> is a link to this page you're reading at the moment. Notice that the protocol and host part of the URL has been replaced by a "."</p>
+
+  <h2>Images</h2>
+  <p>Images are a bit like links. You specify the location of the image with the 'src' property in the &lt;img&gt; tag. Note that img tags are like br tags: they don't come in pairs. The 'alt' property should be used to provide a description of the image in case it won't load or the user is partially sighted.</p>
+
+  <p>Images can be stored on the same host ... </p>
+  <img src="./local_image.png" alt="A local image">
+
+  <p>... or on another server entirely.</p>
+  <img src="http://jerrymahoney.files.wordpress.com/2012/06/kitten.jpg" alt="A picture of a cat.">
+
+
+  <h2>Tables</h2>
+  <p>Tables are used for holding data</p>
+  <table class='table'>
+    <tr>
+      <th>Name</th>
+      <th>College</th>
+    </tr>
+    <tr>
+      <td>Tom</td>
+      <td>Oriel</td>
+    </tr>
+    <tr>
+      <td>Dave</td>
+      <td>Hertford</td>
+    </tr>
+  </table>
+
+
+
+
+
+</body>
+</html>
